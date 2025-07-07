@@ -1,4 +1,5 @@
 # For Linux
+# estou apenas testando, ja é 2 da manhã e espero que isso esteja funcionando.
 
 DataBase: Sqlite3
 Back-End: PHP 8.12
