@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Sistema de Cadastro</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Sistema de Cadastro</h1>
+
+    <form>
+      <div class="form-grid">
+        <div class="form-group">
+          <label for="nome">Nome completo:</label>
+          <input type="text" id="nome" name="nome" required />
+        </div>
+
+        <div class="form-group">
+          <label for="dataNascimento">Data de nascimento:</label>
+          <input
+            type="date"
+            id="dataNascimento"
+            name="dataNascimento"
+            required
+          />
+        </div>
+
+        <div class="form-group">
+          <label for="mae">Nome da mãe:</label>
+          <input type="text" id="mae" name="mae" />
+        </div>
+
+        <div class="form-group">
+          <label for="pai">Nome do pai:</label>
+          <input type="text" id="pai" name="pai" />
+        </div>
+
+        <div class="form-group">
+          <label for="responsavel">Responsável:</label>
+          <input type="text" id="responsavel" name="responsavel" />
+        </div>
+
+        <div class="form-group">
+          <label for="telefone">Telefone:</label>
+          <input type="tel" id="telefone" name="telefone" />
+        </div>
+
+        <div class="form-group">
+          <label for="deficiencia">Deficiência:</label>
+          <input type="text" id="deficiencia" name="deficiencia" />
+        </div>
+
+        <div class="form-group">
+          <label for="endereco">Endereço:</label>
+          <input type="text" id="endereco" name="endereco" />
+        </div>
+
+        <div class="form-group">
+          <label for="escola">Escola:</label>
+          <input type="text" id="escola" name="escola" />
+        </div>
+
+        <div class="form-group">
+          <label for="turno">Turno:</label>
+          <input type="text" id="turno" name="turno" />
+        </div>
+
+        <div class="form-group">
+          <label for="turma">Turma:</label>
+          <input type="text" id="turma" name="turma" />
+        </div>
+
+        <div class="form-group">
+          <label for="batismo">Batismo:</label>
+          <input type="text" id="batismo" name="batismo" />
+        </div>
+      </div>
+
+      <fieldset>
+        <legend>AUT_IMG</legend>
+        <label
+          ><input type="radio" name="aut_img" value="sim" required /> Sim</label
+        >
+        <label><input type="radio" name="aut_img" value="nao" /> Não</label>
+      </fieldset>
+
+      <fieldset>
+        <legend>RESP_IGRJ</legend>
+        <label
+          ><input type="radio" name="resp_igrj" value="sim" required />
+          Sim</label
+        >
+        <label><input type="radio" name="resp_igrj" value="nao" /> Não</label>
+      </fieldset>
+
+      <fieldset>
+        <legend>RESP_DIZ</legend>
+        <label
+          ><input type="radio" name="resp_diz" value="sim" required />
+          Sim</label
+        >
+        <label><input type="radio" name="resp_diz" value="nao" /> Não</label>
+      </fieldset>
+
+      <fieldset>
+        <legend>RESP_MORAM_JUNTOS</legend>
+        <label
+          ><input type="radio" name="resp_moram_juntos" value="sim" required />
+          Sim</label
+        >
+        <label
+          ><input type="radio" name="resp_moram_juntos" value="nao" />
+          Não</label
+        >
+      </fieldset>
+
+      <fieldset>
+        <legend>RESP_CASADOS_IGRJ</legend>
+        <label
+          ><input type="radio" name="resp_casados_igrj" value="sim" required />
+          Sim</label
+        >
+        <label
+          ><input type="radio" name="resp_casados_igrj" value="nao" />
+          Não</label
+        >
+      </fieldset>
+
+      <button type="submit">Cadastrar Aluno</button>
+    </form>
+  </body>
+</html>
