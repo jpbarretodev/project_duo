@@ -4,3 +4,4 @@ DataBase: Sqlite3
 Back-End: PHP 8.12
 DataBase Embutido: 
     Extension: php-cli
+Server: XAMPP or PHP on terminal
