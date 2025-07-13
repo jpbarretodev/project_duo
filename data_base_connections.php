@@ -10,6 +10,22 @@ class Data_base {
         
         id INTEGER PRIMARY KEY AUTOINCREMENT,
         nome TEXT NOT NULL
+        nascimento TEXT NOT NULL
+        mae TEXT NOT NULL
+        pai TEXT NOT NULL
+        responsavel TEXT NOT NULL
+        telefone TEXT NOT NULL
+        deficiencia TEXT NOT NULL
+        endereco TEXT NOT NULL
+        escola TEXT NOT NULL
+        turno TEXT NOT NULL
+        turma TEXT NOT NULL
+        batismo BOOLEAN NOT NULL
+        aut_img BOOLEAN NOT NULL
+        resp_igrj BOOLEAN NOT NULL
+        resp_diz BOOLEAN NOT NULL
+        resp_moram_juntos BOOLEAN NOT NULL
+        resp_casados_igrj BOOLEAN NOT NULL
         
         )"); // criação das tabelas se não existir
     }
@@ -30,3 +46,5 @@ class Data_base {
 
     }
 }
+
+$banco = new Data_base;
