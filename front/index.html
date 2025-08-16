@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+<<<<<<< HEAD
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -14,120 +15,123 @@
         <div class="form-group">
           <label for="nome">Nome completo:</label>
           <input type="text" id="nome" name="nome" required />
+=======
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Sistema de cadastro</title>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Formulario de cadastro </h1>
+            <div class="subtitle">catequizando:</div>
+            <br>
+>>>>>>> 284ce377bec9b25f815bfbe84acb663ce7af95a8
         </div>
-
-        <div class="form-group">
-          <label for="dataNascimento">Data de nascimento:</label>
-          <input
-            type="date"
-            id="dataNascimento"
-            name="dataNascimento"
-            required
-          />
+        
+        <div class="form-section">
+            <div class="form-grid">
+                <div class="form-group">
+                    <label for="nome">Nome completo:</label>
+                    <input type="text" id="nome" name="nome">
+                </div>
+                <div class="form-group">
+                    <label for="dataNascimento">Data de nascimento:</label>
+                    <input type="date" id="dataNascimento" name="dataNascimento">
+                </div>
+                <div class="form-group">
+                    <label for="mae">Nome da mãe:</label>
+                    <input type="text" id="mae" name="mae">
+                </div>
+                <div class="form-group">
+                    <label for="pai">Nome do pai:</label>
+                    <input type="text" id="pai" name="pai">
+                </div>
+                <div class="form-group">
+                    <label for="responsavel">Responsável:</label>
+                    <input type="text" id="responsavel" name="responsavel">
+                </div>
+                <div class="form-group">
+                    <label for="telefone">Telefone:</label>
+                    <input type="tel" id="telefone" name="telefone">
+                </div>
+                <div class="form-group">
+                    <label>Deficiência:</label>
+                    <div class="radio-group">
+                        <label><input type="radio" name="deficiencia" value="sim" > Sim</label>
+                        <label><input type="radio" name="deficiencia" value="nao"> Não</label>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="endereco">Endereço:</label>
+                    <input type="text" id="endereco" name="endereco">
+                </div>
+                <div class="form-group">
+                    <label for="escola">Escola:</label>
+                    <input type="text" id="escola" name="escola">
+                </div>
+                <div class="form-group">
+                    <label for="turno">Turno:</label>
+                    <input type="text" id="turno" name="turno">
+                </div>
+                <div class="form-group">
+                    <label for="turma">Turma:</label>
+                    <input type="text" id="turma" name="turma">
+                </div>
+                <div class="form-group">
+                    <label for="batismo">Batismo:</label>
+                    <input type="text" id="batismo" name="batismo">
+                </div>
+            </div>
+            
+            <fieldset>
+                <legend>Auto imagem?</legend>
+                <div class="radio-group">
+                    <label><input type="radio" name="aut_img" value="sim"> Sim</label>
+                    <label><input type="radio" name="aut_img" value="nao"> Não</label>
+                </div>
+            </fieldset>
+            
+            <fieldset>
+                <legend>Responsável frequenta esta igreja?</legend>
+                <div class="radio-group">
+                    <label><input type="radio" name="resp_igrj" value="sim"> Sim</label>
+                    <label><input type="radio" name="resp_igrj" value="nao"> Não</label>
+                </div>
+            </fieldset>
+            
+            <fieldset>
+                <legend>Responsável é dizimista?</legend>
+                <div class="radio-group">
+                    <label><input type="radio" name="resp_diz" value="sim" > Sim</label>
+                    <label><input type="radio" name="resp_diz" value="nao"> Não</label>
+                </div>
+            </fieldset>
+            
+            <fieldset>
+                <legend>Responsável e Aluno moram juntos?</legend>
+                <div class="radio-group">
+                    <label><input type="radio" name="resp_moram_juntos" value="sim"> Sim</label>
+                    <label><input type="radio" name="resp_moram_juntos" value="nao"> Não</label>
+                </div>
+            </fieldset>
+            
+            <fieldset>
+                <legend>Responsável é casado na igreja?
+                </legend>
+                <div class="radio-group">
+                    <label><input type="radio" name="resp_casados_igrj" value="sim"> Sim</label>
+                    <label><input type="radio" name="resp_casados_igrj" value="nao"> Não</label>
+                </div>
+            </fieldset>
+            
+            <button type="submit">Cadastrar Aluno</button>
         </div>
-
-        <div class="form-group">
-          <label for="mae">Nome da mãe:</label>
-          <input type="text" id="mae" name="mae" />
-        </div>
-
-        <div class="form-group">
-          <label for="pai">Nome do pai:</label>
-          <input type="text" id="pai" name="pai" />
-        </div>
-
-        <div class="form-group">
-          <label for="responsavel">Responsável:</label>
-          <input type="text" id="responsavel" name="responsavel" />
-        </div>
-
-        <div class="form-group">
-          <label for="telefone">Telefone:</label>
-          <input type="tel" id="telefone" name="telefone" />
-        </div>
-
-        <div class="form-group">
-          <label for="deficiencia">Deficiência:</label>
-          <input type="text" id="deficiencia" name="deficiencia" />
-        </div>
-
-        <div class="form-group">
-          <label for="endereco">Endereço:</label>
-          <input type="text" id="endereco" name="endereco" />
-        </div>
-
-        <div class="form-group">
-          <label for="escola">Escola:</label>
-          <input type="text" id="escola" name="escola" />
-        </div>
-
-        <div class="form-group">
-          <label for="turno">Turno:</label>
-          <input type="text" id="turno" name="turno" />
-        </div>
-
-        <div class="form-group">
-          <label for="turma">Turma:</label>
-          <input type="text" id="turma" name="turma" />
-        </div>
-
-        <div class="form-group">
-          <label for="batismo">Batismo:</label>
-          <input type="text" id="batismo" name="batismo" />
-        </div>
-      </div>
-
-      <fieldset>
-        <legend>AUT_IMG</legend>
-        <label
-          ><input type="radio" name="aut_img" value="sim" required /> Sim</label
-        >
-        <label><input type="radio" name="aut_img" value="nao" /> Não</label>
-      </fieldset>
-
-      <fieldset>
-        <legend>RESP_IGRJ</legend>
-        <label
-          ><input type="radio" name="resp_igrj" value="sim" required />
-          Sim</label
-        >
-        <label><input type="radio" name="resp_igrj" value="nao" /> Não</label>
-      </fieldset>
-
-      <fieldset>
-        <legend>RESP_DIZ</legend>
-        <label
-          ><input type="radio" name="resp_diz" value="sim" required />
-          Sim</label
-        >
-        <label><input type="radio" name="resp_diz" value="nao" /> Não</label>
-      </fieldset>
-
-      <fieldset>
-        <legend>RESP_MORAM_JUNTOS</legend>
-        <label
-          ><input type="radio" name="resp_moram_juntos" value="sim" required />
-          Sim</label
-        >
-        <label
-          ><input type="radio" name="resp_moram_juntos" value="nao" />
-          Não</label
-        >
-      </fieldset>
-
-      <fieldset>
-        <legend>RESP_CASADOS_IGRJ</legend>
-        <label
-          ><input type="radio" name="resp_casados_igrj" value="sim" required />
-          Sim</label
-        >
-        <label
-          ><input type="radio" name="resp_casados_igrj" value="nao" />
-          Não</label
-        >
-      </fieldset>
-
-      <button type="submit">Cadastrar Aluno</button>
-    </form>
-  </body>
+      
+            <P>Sistema de cadastro v1.0</P>
+       
+    </div>
+</body>
 </html>
