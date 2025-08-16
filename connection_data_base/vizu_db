@@ -1,0 +1,17 @@
+<?php
+$db = new SQLite3(__DIR__ . '/data_base.db');
+
+$result = $db->query("SELECT * FROM catequizandos");
+
+echo "<table border='1'>";
+echo "<tr><th>ID</th><th>Nome</th><th>Nascimento</th></tr>";
+
+while ($row = $result->fetchArray(SQLITE3_ASSOC)) {
+    echo "<tr>";
+    echo "<td>" . htmlspecialchars($row['id']) . "</td>";
+    echo "<td>" . htmlspecialchars($row['nome']) . "</td>";
+    echo "<td>" . htmlspecialchars($row['nascimento']) . "</td>";
+    echo "</tr>";
+}
+
+echo "</table>";
