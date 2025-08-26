@@ -64,5 +64,8 @@ function search_name($db, $data) {
             echo "Nome para teste: " . $row["nome"] . "<br>";
         }
     }
-    
+}
+
+function update($db, $id) {
+    $sql = "UPDATE FROM catequizandos WHERE ";
 }
